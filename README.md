@@ -89,4 +89,4 @@ We can process only 1 and 2 list items.
 3 Request to API. This case you can process with golang.
 4 Request to API with encrypting data into the request. This case relally problem for us. Than, you decrypt data and after that, you can use CFE. Or, you can use another tool with headlesss browser parsing. But this is a very rarely and difficult case. 
 
-**Notice**: while parcing take data as anchor is a very bad practice. Data can be changed. From example above, you don't use as anchor substring `Hello world!`. This is data.
+**Notice**: while parcing take data as anchor is a very bad practice. Data can be changed. From example above, you don't use as anchor substring `Hello world!`. This is data. Data is changed more often, than tags
