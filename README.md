@@ -64,7 +64,7 @@ Now, we have some such constructions. You need to use for-loop construction, whi
 
 That's all. It's enough.
 
-# Type of data any cites
+# Type of data any sites
 
 1. html-data
 2. json-data
