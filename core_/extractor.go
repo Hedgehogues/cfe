@@ -153,7 +153,7 @@ func ExtractCtxObjects(text string, ctxAnchor *CtxAnchor, count *uint32) ([]*Ext
 	offset := 0     // this offset set shift by text for different ids
 	ctxA := NewAnchor(ctxAnchor.ctx, "")
 	for {
-		ctxE, err := ExtractObject(text, ctxA)
+		ctxE, err := ExtractObject(subText, ctxA)
 		if err == NotFoundObjectError {
 			break
 		}
