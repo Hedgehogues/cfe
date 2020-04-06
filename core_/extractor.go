@@ -1,4 +1,4 @@
-package core
+package core_
 
 import (
 	"github.com/pkg/errors"
