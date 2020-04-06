@@ -161,7 +161,7 @@ func ExtractCtxObjects(text string, ctxAnchor *CtxAnchor, count *uint32) ([]*Ext
 			return nil, err
 		}
 		subText = subText[ctxE.FPos:]
-		offset := offset + ctxE.FPos
+		offset += ctxE.FPos
 
 		e, err := ExtractObject(subText, ctxAnchor.anchor)
 		if err != nil {
