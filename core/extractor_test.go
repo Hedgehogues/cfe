@@ -1,4 +1,4 @@
-package core_
+package core
 
 import (
 	"reflect"
