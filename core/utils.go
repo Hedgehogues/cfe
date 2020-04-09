@@ -1,6 +1,6 @@
 package core
 
-func pToStrings(e []*Extract) []string {
+func PToStrings(e []*Extract) []string {
 	var objs []string
 	for _, el := range e {
 		objs = append(objs, el.Object)
@@ -8,7 +8,7 @@ func pToStrings(e []*Extract) []string {
 	return objs
 }
 
-func toStrings(e []Extract) []string {
+func ToStrings(e []Extract) []string {
 	var objs []string
 	for _, el := range e {
 		objs = append(objs, el.Object)

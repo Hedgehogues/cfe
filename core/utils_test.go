@@ -31,8 +31,8 @@ func Test_pToStrings(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := pToStrings(tt.args.e); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("pToStrings() = %v, want %v", got, tt.want)
+			if got := PToStrings(tt.args.e); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("PToStrings() = %v, want %v", got, tt.want)
 			}
 		})
 	}
@@ -64,8 +64,8 @@ func Test_toStrings(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := toStrings(tt.args.e); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("pToStrings() = %v, want %v", got, tt.want)
+			if got := ToStrings(tt.args.e); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("PToStrings() = %v, want %v", got, tt.want)
 			}
 		})
 	}
