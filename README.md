@@ -1,5 +1,7 @@
 # cfe
 
+# NOTICE: this repo is supported. Please, use [ferret](https://github.com/MontFerret/ferret)
+
 *CFE is lightness, speed and parallels library for declarative parsing without build DOM tree*
 
 CFE is **C**ontext, **F**or-loop and **E**xtract. 
